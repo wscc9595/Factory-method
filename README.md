@@ -34,7 +34,8 @@ There are a few key principles that we adhere to when utilizing the factory patt
 6. Dependency inversion: Lastly in approaches that utilize the factory pattern, high-level modules should not depend on low-level modules, but instead both should depend on abstractions. This use of interfaces and abstract classes ensures that client code is not directly dependent on concrete implementations but are instead decoupled - allowing for further improvements in code maintainability and testability.
 
 
-We can see in these principles both a description of the factory pattern’s benefits and in exactly what situations we should rely upon it. Namely in situations where we have multiple implementations of interfaces or abstract classes dependant on certain criteria, where object creation can benefit from encapsulation where we want to maintain centralization and/or flexibility to allow us to easily extend and modify processes and lastly where we want to ensure that our classes can remain decoupled and relatively independent of lower level modules. 
+We can see in these principles both a description of the factory pattern’s benefits and in exactly what situations we should rely upon it. Namely in situations where we have multiple implementations of interfaces or abstract classes dependant on certain criteria, where 
+object creation can benefit from encapsulation where we want to maintain centralization and/or flexibility to allow us to easily extend and modify processes and lastly where we want to ensure that our classes can remain decoupled and relatively independent of lower level modules. 
 
 Our example below is one such situation where we found using the factory pattern to be beneficial. In it we need to create classes for substantiating chocolate objects of sizes small, medium and large but could conceivably need to expand this in the future based on other parameters such as nuttiness or bitterness. 
 
@@ -52,7 +53,7 @@ We then have three subclasses for SmallChocolate, MediumChocolate, and LargeChoc
 
 Lastly, we have a Factory ChocolateFactoryBySize that implements the ChocolateFactory interface. When called it accepts a single string parameter “small”/”medium”/”large” for what type of chocolate we want. This is all the client will ever need to know to use this factory. It uses a switch case to decide what range to generate a random weight within and by itself decides to call a specific subclass based on this internal logic. 
 
-![Chocolate Factory Method Pattern diagram](https://user-images.githubusercontent.com/122711570/232695323-d0aff7b4-3bf1-456c-9e72-0cf0cc10e54a.jpeg)
+![Chocolate Factory Method Pattern diagram](https://user-images.githubusercontent.com/122711570/232696320-addb5307-d65a-4cab-a0d6-84c7a2a28cf1.jpeg)
 
 #### How to run code
 
