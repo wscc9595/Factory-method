@@ -52,7 +52,7 @@ We then have three subclasses for SmallChocolate, MediumChocolate, and LargeChoc
 
 Lastly, we have a Factory ChocolateFactoryBySize that implements the ChocolateFactory interface. When called it accepts a single string parameter “small”/”medium”/”large” for what type of chocolate we want. This is all the client will ever need to know to use this factory. It uses a switch case to decide what range to generate a random weight within and by itself decides to call a specific subclass based on this internal logic. 
 
-![Chocolate Factory Method Pattern diagram](https://user-images.githubusercontent.com/122711570/232690131-0ba11bc7-37c5-400f-b40e-754694a09134.jpeg)
+![Chocolate Factory Method Pattern diagram](https://user-images.githubusercontent.com/122711570/232695323-d0aff7b4-3bf1-456c-9e72-0cf0cc10e54a.jpeg)
 
 #### How to run code
 
