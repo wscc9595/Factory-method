@@ -58,11 +58,11 @@ Lastly, we have a Factory ChocolateFactoryBySize that implements the ChocolateFa
 
 #### How to run code
 
-To run our example code, you can execute the Main.java file in the chocolatefactory package.
-The Main.java file is set up to instantiate three instances of Chocolate objects representing small, medium, and large chocolates.
-It calls the ChocolateFactoryBySize implementation of the ChocolateFactory interface with different size arguments ("small", "medium", or "large") to create the corresponding chocolate instances.
-To directly use the ChocolateFactory, you can call the createChocolate() method with a size argument ("small", "medium", or "large"), in much the same way as demonstrated in the Main.java file. This will return an instance of the appropriate Chocolate subclass, allowing you to access its methods and properties.
-These returned instances/objects can in turn be called with either of their methods, chocolateSize() and getWeight(). The chocolateSize() method returns a string representation of the chocolate's size, such as "Small Chocolate", "Medium Chocolate", or "Large Chocolate". The getWeight() method returns the weight of the chocolate object in grams, generated within the specified weight range for each size.
+1. To run our example code, you can execute the Main.java file in the chocolatefactory package.
+2. The Main.java file is set up to instantiate three instances of Chocolate objects representing small, medium, and large chocolates.
+3. It calls the ChocolateFactoryBySize implementation of the ChocolateFactory interface with different size arguments ("small", "medium", or "large") to create the corresponding chocolate instances.
+4. To directly use the ChocolateFactory, you can call the createChocolate() method with a size argument ("small", "medium", or "large"), in much the same way as demonstrated in the Main.java file. This will return an instance of the appropriate Chocolate subclass, allowing you to access its methods and properties.
+5. These returned instances/objects can in turn be called with either of their methods, chocolateSize() and getWeight(). The chocolateSize() method returns a string representation of the chocolate's size, such as "Small Chocolate", "Medium Chocolate", or "Large Chocolate". The getWeight() method returns the weight of the chocolate object in grams, generated within the specified weight range for each size.
 
 
 #### Cons
