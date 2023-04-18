@@ -56,7 +56,7 @@ Lastly, we have a Factory ChocolateFactoryBySize that implements the ChocolateFa
 ![UML - Chocolate Factory Method Pattern diagram](https://user-images.githubusercontent.com/122859530/232683063-6087ccd0-219f-480b-8ec9-cf19cf232fc3.png)
 
 
-#### How to run code
+### III How to run code
 
 1. To run our example code, you can execute the Main.java file in the chocolatefactory package.
 2. The Main.java file is set up to instantiate three instances of Chocolate objects representing small, medium, and large chocolates.
@@ -65,7 +65,7 @@ Lastly, we have a Factory ChocolateFactoryBySize that implements the ChocolateFa
 5. These returned instances/objects can in turn be called with either of their methods, chocolateSize() and getWeight(). The chocolateSize() method returns a string representation of the chocolate's size, such as "Small Chocolate", "Medium Chocolate", or "Large Chocolate". The getWeight() method returns the weight of the chocolate object in grams, generated within the specified weight range for each size.
 
 
-#### Cons
+### IV Cons
 
 We must, however, also acknowledge that no single design pattern is omnipotent and there are of course drawbacks to using the factory pattern<sup>[3][4]</sup>. For the factory pattern some of the chief drawbacks are:
 
