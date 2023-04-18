@@ -8,8 +8,8 @@ import java.util.Random;
 public class ChocolateFactoryBySize implements ChocolateFactory {
 
   @Override
-  public AbstractChocolate createChocolate(String size) {
-    AbstractChocolate chocolate;
+  public Chocolate createChocolate(String size) {
+    Chocolate chocolate;
     int weight = 0;
 
 

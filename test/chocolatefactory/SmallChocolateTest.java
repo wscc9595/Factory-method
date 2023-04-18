@@ -9,7 +9,7 @@ import org.junit.Test;
  * The type Small chocolate test.
  */
 public class SmallChocolateTest {
-  private AbstractChocolate smallChocolate;
+  private Chocolate smallChocolate;
 
   /**
    * Sets up.
@@ -21,18 +21,18 @@ public class SmallChocolateTest {
   }
 
   /**
-   * Gets class name.
+   * Test chocolateSize.
    */
   @Test
-  public void getClassName() {
+  public void testChocolateSize() {
     assertEquals("Small Chocolate", smallChocolate.chocolateSize());
   }
 
   /**
-   * Gets weight.
+   * Test getWeight.
    */
   @Test
-  public void getWeight() {
+  public void testGetWeight() {
     int weight = smallChocolate.getWeight();
     assertEquals(true, weight >= 50 && weight <= 100);
   }

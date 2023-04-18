@@ -10,5 +10,5 @@ public interface ChocolateFactory {
    * @param size the desired size of the chocolate
    * @return the created chocolate object
    */
-  AbstractChocolate createChocolate(String size);
+  Chocolate createChocolate(String size);
 }

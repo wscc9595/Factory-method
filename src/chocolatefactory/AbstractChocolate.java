@@ -3,7 +3,7 @@ package chocolatefactory;
 /**
  * An abstract class representing a chocolate with a weight.
  */
-public abstract class AbstractChocolate implements ChocolateInterface {
+public abstract class AbstractChocolate implements Chocolate {
   private int weight;
 
   /**

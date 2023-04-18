@@ -12,17 +12,17 @@ public class Main {
   public static void main(String[] args) {
     System.out.println("Creating a Small Chocolate using the factory: ");
     ChocolateFactory factory = new ChocolateFactoryBySize();
-    AbstractChocolate smallChocolate = factory.createChocolate("small");
+    Chocolate smallChocolate = factory.createChocolate("small");
     System.out.println("Size: " + smallChocolate.chocolateSize());
     System.out.println("Weight: " + smallChocolate.getWeight());
 
     System.out.println("Creating a Medium Chocolate using the factory: ");
-    AbstractChocolate mediumChocolate = factory.createChocolate("medium");
+    Chocolate mediumChocolate = factory.createChocolate("medium");
     System.out.println("Size: " + mediumChocolate.chocolateSize());
     System.out.println("Weight: " + mediumChocolate.getWeight());
 
     System.out.println("Creating a Large Chocolate using the factory: ");
-    AbstractChocolate largeChocolate = factory.createChocolate("large");
+    Chocolate largeChocolate = factory.createChocolate("large");
     System.out.println("Size: " + largeChocolate.chocolateSize());
     System.out.println("Weight: " + largeChocolate.getWeight());
   }

@@ -3,7 +3,7 @@ package chocolatefactory;
 /**
  * The interface for individual Chocolate objects.
  */
-public interface ChocolateInterface {
+public interface Chocolate {
   /**
    * Retrieves the size of the chocolate as a string.
    *

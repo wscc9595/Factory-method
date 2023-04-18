@@ -12,6 +12,6 @@ public class IllegalChocolateTest {
   @Test(expected = IllegalArgumentException.class)
   public void testIllegalChocolate() {
     ChocolateFactory factory = new ChocolateFactoryBySize();
-    AbstractChocolate chocolate = factory.createChocolate("INVALID");
+    Chocolate chocolate = factory.createChocolate("INVALID");
   }
 }
