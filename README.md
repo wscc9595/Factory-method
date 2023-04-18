@@ -42,7 +42,7 @@ Our example below is one such situation where we found using the factory pattern
 
 ### III. Example
 
-Problem Statement:
+#### Problem Statement:
 
 In this repository we have included an example of a chocolate factory. This factory handles the creation of ‘chocolate’ products of various sizes ‘Small’, ‘Medium’, or ‘Large’. We want these three types of chocolate to have random weights within several specific ranges of weights and we also want these chocolates to be categorized into appropriate classes based on these weights such that any chocolate from 50 to 100 grams in weight is a ‘Small Chocolate’ Object, any chocolate in-between 150 to 300 grams a ‘Medium Chocolate’ and anything from 500 to 1000 grams being a ‘Large Chocolate’.
 
@@ -56,7 +56,7 @@ Lastly, we have a Factory ChocolateFactoryBySize that implements the ChocolateFa
 ![UML - Chocolate Factory Method Pattern diagram](https://user-images.githubusercontent.com/122859530/232683063-6087ccd0-219f-480b-8ec9-cf19cf232fc3.png)
 
 
-How to run code
+#### How to run code
 
 To run our example code, you can execute the Main.java file in the chocolatefactory package.
 The Main.java file is set up to instantiate three instances of Chocolate objects representing small, medium, and large chocolates.
